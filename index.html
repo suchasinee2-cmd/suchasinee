@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>MINI 3D ZOO</title>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<video id="vid" playsinline muted autoplay></video>
+<div id="start" class="ui"><h1>MINI 3D ZOO</h1><p>เดินสำรวจสวนสัตว์จิ๋ว พบสัตว์น่ารัก 8 ชนิด<br>💻 WASD เดิน · Shift วิ่ง · Space กระโดด · เมาส์หมุนกล้อง (คลิกที่จอ) · E ดูข้อมูล<br>📱 จอยซ้ายเดิน · ลากจอหมุนกล้อง</p><button class="btn" id="go">START</button></div>
+<canvas id="map" class="ui" width="130" height="130"></canvas>
+<div id="hint" class="ui">WASD เดิน · Shift วิ่ง · Space กระโดด · E ข้อมูลสัตว์</div>
+<div id="card" class="ui"><div class="em" id="cE"></div><h2 id="cN"></h2><div id="cI"></div></div>
+<button id="arbtn" class="btn ui">🥽 AR</button>
+<div id="joy" class="ui"><div id="knob"></div></div>
+<div id="acts" class="ui"><button class="rb" id="bE">E</button><button class="rb" id="bR">วิ่ง</button><button class="rb" id="bJ">กระโดด</button></div>
+<div id="arui" class="ui"><button class="rb" id="aL">⟲</button><button class="rb" id="aR">⟳</button><button class="rb" id="aP">＋</button><button class="rb" id="aM">－</button><button class="rb" id="aX">✕</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script></body></html>
